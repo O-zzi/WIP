@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Sports Collective</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-section">
+                    <div class="logo">TSC</div>
+                    <span class="brand-text">The Sports Collective</span>
+                </div>
+                 <ul class="nav-links">
+                    <li><a href="/index.html" >Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Projects <span class="dropdown-arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/projects/fastest-pakistani.html">The Fastest Pakistani</a></li>
+                            <li><a href="/projects/powerlifting.html">Powerlifting Excellence</a></li>
+                            <li><a href="/projects/arm-wrestling.html">Arm Wrestling</a></li>
+                            <li><a href="/projects/roshan-zindagi.html">Roshan Zindagi</a></li>
+                            <li><a href="/projects/gymbhai.html">GymBhai</a></li>
+                            <li><a href="/projects/amazon-web-services.html">Amazon Web Services</a></li>
+                            <li><a href="/projects/shooter-volleyball.html">Shooter Volleyball</a></li>
+                            <li><a href="/projects/tent-pegging.html">Tent Pegging</a></li>
+                            <li><a href="/projects/mma.html">Mixed Martial Arts (MMA)</a></li>
+                            <li><a href="/projects/semaglutide.html">Semaglutide - Macter International</a></li>
+                            <li><a href="/projects/clutch-sport-infra.html" >Clutch Sport Infra</a></li>
+                            <li><a href="/projects/clutch-sports-entertainment.html">Clutch Sports Entertainment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/news.html">News</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html" class="nav-active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Get In Touch</h1>
+                <p class="hero-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="contact-methods">
+        <div class="container">
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-icon">📧</div>
+                    <h3 class="method-title">Email Us</h3>
+                    <p class="method-description">Send us an email and we'll get back to you within 24 hours</p>
+                    <a href="mailto:info@thesportscollective.pk" class="method-link">info@thesportscollective.pk</a>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">📱</div>
+                    <h3 class="method-title">Call Us</h3>
+                    <p class="method-description">Speak directly with our team during business hours</p>
+                    <a href="tel:+92-300-1234567" class="method-link">+92 300 1234567</a>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">📍</div>
+                    <h3 class="method-title">Visit Us</h3>
+                    <p class="method-description">Come visit our headquarters in Lahore</p>
+                    <address class="method-address">
+                        123 Sports Complex Road<br>
+                        Gulberg III, Lahore<br>
+                        Punjab, Pakistan
+                    </address>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">💬</div>
+                    <h3 class="method-title">Social Media</h3>
+                    <p class="method-description">Connect with us on social platforms</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="form-container">
+                    <h2 class="form-title">Send Us a Message</h2>
+                    <p class="form-description">Fill out the form below and we'll get back to you as soon as possible.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <select id="subject" name="subject" class="form-select" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="athlete">Athlete Registration</option>
+                                <option value="media">Media & Press</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="feedback">Feedback & Suggestions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Tell us more about your inquiry..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                                <span class="checkbox-text">I would like to receive updates and newsletters from The Sports Collective</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="form-submit-btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 class="info-title">Contact Information</h3>
+                    
+                    <div class="info-section">
+                        <h4 class="info-subtitle">General Inquiries</h4>
+                        <p class="info-text">For general questions about The Sports Collective, our projects, or community involvement.</p>
+                        <p class="info-contact">📧 info@thesportscollective.pk</p>
+                        <p class="info-contact">📱 +92 300 1234567</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4 class="info-subtitle">Media & Press</h4>
+                        <p class="info-text">For media inquiries, press releases, and interview requests.</p>
+                        <p class="info-contact">📧 media@thesportscollective.pk</p>
+                        <p class="info-contact">📱 +92 301 2345678</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4 class="info-subtitle">Partnerships</h4>
+                        <p class="info-text">Interested in partnering with us? Let's discuss collaboration opportunities.</p>
+                        <p class="info-contact">📧 partnerships@thesportscollective.pk</p>
+                        <p class="info-contact">📱 +92 302 3456789</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4 class="info-subtitle">Technical Support</h4>
+                        <p class="info-text">Need help with our platforms or experiencing technical issues?</p>
+                        <p class="info-contact">📧 support@thesportscollective.pk</p>
+                        <p class="info-contact">📱 +92 303 4567890</p>
+                    </div>
+                    
+                    <div class="info-section">
+                        <h4 class="info-subtitle">Office Hours</h4>
+                        <p class="info-text">Monday - Friday: 9:00 AM - 6:00 PM PKT</p>
+                        <p class="info-text">Saturday: 10:00 AM - 4:00 PM PKT</p>
+                        <p class="info-text">Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about The Sports Collective</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can I get my sport featured in The Sports Collective?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're always looking to expand our sports coverage. Contact us through our partnership email with details about your sport, athletes, and community. We evaluate each opportunity based on our mission to promote Pakistani sports excellence.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can individual athletes join The Sports Collective?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We welcome individual athletes who demonstrate excellence in their respective sports. You can apply through our athlete registration process or contact us directly with your athletic achievements and goals.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide training facilities or coaching?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>While we don't operate physical training facilities, we connect athletes with top coaches and training centers through our network. We also provide digital training resources through platforms like GymBhai.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can organizations partner with The Sports Collective?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We welcome partnerships with organizations that share our vision of promoting Pakistani sports. Contact our partnerships team to discuss sponsorship opportunities, collaborative projects, or resource sharing initiatives.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is The Sports Collective only for professional athletes?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Not at all! We support athletes at all levels, from beginners to professionals. Our community includes recreational players, amateur competitors, and elite athletes. Everyone who shares our passion for sports is welcome.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can I stay updated with The Sports Collective news?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Subscribe to our newsletter, follow us on social media, or regularly check our news section. We also send updates about events, athlete achievements, and new project launches to our community members.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <div class="map-icon">🗺️</div>
+                        <h3>Interactive Map</h3>
+                        <p>The Sports Collective Headquarters</p>
+                        <p>123 Sports Complex Road, Gulberg III, Lahore</p>
+                        <a href="https://maps.google.com" target="_blank" class="map-link">Open in Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo">TSC</div>
+                        <span class="brand-text">The Sports Collective</span>
+                    </div>
+                    <p class="footer-description">Uniting sports projects under one vision. Building a vibrant community of athletes, enthusiasts, and sports lovers across Pakistan.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Projects</h4>
+                    <ul class="footer-links">
+                        <li><a href="/projects/fastest-pakistani.html">The Fastest Pakistani</a></li>
+                        <li><a href="/projects/powerlifting.html">Powerlifting</a></li>
+                        <li><a href="/projects/gymbhai.html">GymBhai</a></li>
+                        <li><a href="/projects/mma.html">Mixed Martial Arts</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Community</h4>
+                    <ul class="footer-links">
+                        <li><a href="/news.html">Latest News</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="#">Join Community</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="newsletter-text">Stay updated with the latest news and events from The Sports Collective.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Sports Collective. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/contact.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,190 @@
+/* Navigation Fix - Override existing styles */
+.navbar {
+    background: rgba(10, 10, 10, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1000 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    height: 70px !important;
+}
+
+.nav-container {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding: 0 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 70px !important;
+}
+
+.logo-section {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+}
+
+.logo {
+    background: linear-gradient(135deg, #ff6b35, #f7931e) !important;
+    color: white !important;
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 800 !important;
+    font-size: 18px !important;
+    letter-spacing: -0.5px !important;
+}
+
+.brand-text {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #ffffff !important;
+    letter-spacing: -0.3px !important;
+}
+
+.nav-links {
+    display: flex !important;
+    list-style: none !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-links li {
+    position: relative !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-links > li > a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 12px 16px !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+}
+
+.nav-links > li > a:hover,
+.nav-links > li > a.nav-active {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #ff6b35 !important;
+}
+
+.dropdown {
+    position: relative !important;
+}
+
+.dropdown-toggle {
+    cursor: pointer !important;
+}
+
+.dropdown-arrow {
+    font-size: 12px !important;
+    margin-left: 4px !important;
+    transition: transform 0.3s ease !important;
+}
+
+.dropdown:hover .dropdown-arrow,
+.dropdown.active .dropdown-arrow {
+    transform: rotate(180deg) !important;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    background: rgba(20, 20, 20, 0.98) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 12px !important;
+    min-width: 280px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(-15px) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4) !important;
+    z-index: 1001 !important;
+    list-style: none !important;
+    padding: 12px 0 !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown.active .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
+}
+
+.dropdown-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.dropdown-menu li a {
+    display: block !important;
+    padding: 14px 24px !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border-bottom: none !important;
+}
+
+.dropdown-menu li a:hover {
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: white !important;
+    padding-left: 28px !important;
+}
+
+.dropdown-menu li a.nav-active {
+    color: #ff6b35 !important;
+    background: rgba(255, 107, 53, 0.15) !important;
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex !important;
+        flex-direction: column !important;
+        cursor: pointer !important;
+        padding: 8px !important;
+        border-radius: 6px !important;
+        transition: background-color 0.3s ease !important;
+        z-index: 1001 !important;
+        position: relative !important;
+    }
+    
+    .hamburger:hover {
+        background: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    .hamburger span {
+        width: 25px !important;
+        height: 3px !important;
+        background: #ffffff !important;
+        margin: 3px 0 !important;
+        border-radius: 2px !important;
+        transition: all 0.3s ease !important;
+    }
+}
+
